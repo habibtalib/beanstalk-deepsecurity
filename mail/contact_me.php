@@ -9,7 +9,11 @@ if(empty($_POST['name'])  		||
 	echo "No arguments Provided!";
 	return false;
    }
-	
+$target_dir = "/tmp/";
+$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+if (!move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
+        echo "File Upload Failed!";
+   return false;
 $name = $_POST['name'];
 $email_address = $_POST['email'];
 $phone = $_POST['phone'];
