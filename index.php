@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Big Cloud Jumbo Corporation</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="http://bcjc-web.s3.amazonaws.com/css/bootstrap.min.css" rel="stylesheet">
@@ -76,7 +76,7 @@
                     <div class="intro-text">
                         <span class="name">BCJC App</span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">We are a big Cloud Company</span>
                     </div>
                 </div>
             </div>
